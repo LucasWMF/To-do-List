@@ -3,13 +3,13 @@ import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
 
 import { FontAwesome } from '@expo/vector-icons'
 
-export default function Tarefa({ data }) {
+export default function Tarefa({ data, deleteItem }) {
 
     return (
         <View style={styles.container}>
 
             <TouchableOpacity style={styles.button}>
-                <FontAwesome name="trash" size={20} color="#22272E" />
+                <FontAwesome name="trash" size={20} color="#22272E" onPress={deleteItem}/>
             </TouchableOpacity>
 
             <Text>{data.item}</Text>
