@@ -64,7 +64,6 @@ const styles = StyleSheet.create({
     fontSize: 24,
     color: '#fff',
     margin: '5%',
-    paddingStart: '5%',
     marginBottom: 12,
 
   },
@@ -92,4 +91,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     borderRadius: 4,
   },
+  list: {
+    backgroundColor: '#fff',
+    padding: 12,
+    paddingTop: 0,
+  }
 });

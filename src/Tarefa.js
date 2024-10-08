@@ -20,7 +20,8 @@ export default function Tarefa({ data }) {
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: 'rgba(196,196,196, 0.20',
+        backgroundColor: 'rgba(196,196,196, 0.30)',
+        // backgroundColor: 'rgba(207,207,207, 0.80)',
         marginTop: 12,
         padding: 12,
         borderRadius: 4,
@@ -29,5 +30,5 @@ const styles = StyleSheet.create({
 
     button:{
         marginRight: 8,
-    }
+    },
 })
